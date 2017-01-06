@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:types="http://www.com.mansoft.practice.services.model/types" targetNamespace="http://www.com.mansoft.practice.services/model" >
+
+ <xs:import namespace="http://www.com.mansoft.practice.services.model/types" schemaLocation="employeeRestrictionType.xsd"/>
+
+ 
+ <xs:element name="employee">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="joiningdate" type="xs:string"/>
+      <xs:element name="department" type="types:department" >
+    
+  </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+ 
+</xs:schema>
