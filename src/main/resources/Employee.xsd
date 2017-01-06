@@ -1,0 +1,24 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:types="http://www.morgantest.com/types/" targetNamespace="http://www.morgantest.com/main">
+
+
+<xs:element name="employee">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="joiningdate" type="xs:string"/>
+      <xs:element name="department" >
+     <xs:simpleType>
+<xs:restriction base="xs:string">
+    <xs:enumeration value="hr"/>
+    <xs:enumeration value="fin"/>
+    <xs:enumeration value="it"/>
+     <xs:enumeration value="operations"/>
+  </xs:restriction>
+  </xs:simpleType>
+  </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+ 
+</xs:schema>

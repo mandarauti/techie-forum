@@ -5,5 +5,5 @@
 // Generated on: 2016.12.10 at 01:52:14 AM CST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://spring.io/guides/gs-producing-web-service", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package io.spring.guides.gs_producing_web_service;
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.morgantest.com/main")
+package com.morgantest.main;
